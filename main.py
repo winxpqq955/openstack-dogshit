@@ -1,4 +1,5 @@
-import get_user_token
-
+import wtf
 if __name__ == '__main__':
-    print(get_user_token.get_token())
+    print(wtf.get_token())
+    print(wtf.flavor_create())
+
